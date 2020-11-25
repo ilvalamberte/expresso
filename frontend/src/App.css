@@ -22,6 +22,9 @@ h1{
   color: #282c34;
   background-color: lightgrey;
 }
+h3{
+  color: white;
+}
 label {
   color:white;
   float: left;

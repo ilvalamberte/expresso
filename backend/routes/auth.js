@@ -74,7 +74,7 @@ router.get("/hassignned", (req, res) => {
     console.log(req.session.user)
     const user = req.session.user;
     if (req.session.user) {
-        return res.send({
+        return res.json({
             auth: true,
             message: "you are logged in",
         })

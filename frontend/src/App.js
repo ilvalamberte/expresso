@@ -35,9 +35,6 @@ export default class App extends Component {
 
           <nav>
             <ul>
-              <Link className="nav-link" to="/home">Home</Link>
-            </ul>
-            <ul>
               <Link className="nav-link" to="/login">Login</Link>
             </ul>
             <ul>
@@ -50,11 +47,7 @@ export default class App extends Component {
               <Link className="nav-link" to="/logout">Logout</Link>
             </ul>
           </nav>
-
           <Switch>
-            <Route path="/home" exact>
-              <Home isAuth={this.state.data} />
-            </Route>
             <Route path="/login">
               <Login />
             </Route>

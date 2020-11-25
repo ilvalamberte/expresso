@@ -10,7 +10,7 @@ export default class Dashboard extends Component {
         console.log(this.props.isAuth.auth)
         return (
             <div className="page-content">
-                {this.props.isAuth.auth ? "Hey you have access to this page" : <h1>Dashboard is avaliable only for logged in users</h1>}
+                {this.props.isAuth.auth ? <h1>Hey you have access to this page</h1> : <h1>Dashboard is avaliable only for logged in users</h1>}
             </div>
         );
 

@@ -30,7 +30,7 @@ export default class Login extends Component {
         console.log(user);
         axios.post('auth/login', user)
             .then(res => console.log(res.data));
-        window.location = '/home';
+        window.location = '/';
     }
 
     render() {

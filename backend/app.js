@@ -36,7 +36,7 @@ app.use(
     "/auth/",
     rateLimiter({
         windowMs: 10 * 60 * 1000, // 10 minutes
-        max: 10,
+        max: 100,
     })
 );
 

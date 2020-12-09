@@ -1,0 +1,15 @@
+image: python:3.8
+# the 'pages' job will deploy and build your site to the 'public' path
+pages:
+    stage: deploy
+    script:
+        - pip install -r requirements.txt
+        - make clean
+        - make html
+        - mv _build/html public
+    artifacts:
+        paths:
+            - public
+    only:
+        - master # this job will affect only the 'master' branch
+

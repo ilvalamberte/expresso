@@ -63,8 +63,8 @@ const Modal = ({showModal, setShowModal}) => {
   </div>
   <div class="toggles">
 
-<div><Toggle version="Latest version"/></div>
-<div><Toggle version="Previous version"/></div>
+<Toggle version="Latest version"/>
+<Toggle version="Previous version"/>
 </div>
   </div>
   </div>

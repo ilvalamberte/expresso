@@ -394,6 +394,9 @@ label:hover {
   position: relative;
   transition: all 5s ease-in-out;
   border-radius: 10px;
+ 
+  box-shadow: -9px -18px 80px 50px rgba(2, 117, 129, 0.20);
+
 }
 
 .CloseModalButton {

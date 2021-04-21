@@ -14,6 +14,7 @@ const Modal = ({showModal, setShowModal}) => {
   console.log({hosts});
   
     let iconStyles = { stroke: "white", fontSize: "1.5em" };
+    
     return (
             <div>
                {showModal ? 
